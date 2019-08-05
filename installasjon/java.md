@@ -17,7 +17,7 @@ Husk å velge **Accept License Agreement** før download.
 3.  Test installasjon ved å starte en ledetekst (Command Prompt) og naviger til mappen `C:\Program Files\Java\jdk12.0.2\bin` og utfør kommandoen `javac –version` som bør gi følgende (eller tilsvarende output): `javac "12.0.2"`
 
 #### MacOS
-1.	Dobbeltklikk på filen `jdk-12.0.2_windows-x64_bin.dmg`
+1.	Dobbeltklikk på filen `jdk-12.0.2_windows-x64_bin.dmg` og deretter på filen `JDK 12.0.2.pkg`
 2.	Følg instruksjonene. Foreslåtte valg vil vanligvis fungere fint.
 3.	Test installasjonen ved å utføre kommandoen:  `javac –version` i en terminal som bør gi følgende (eller tilsvarende output): `javac "12.0.2"`
 
@@ -41,8 +41,6 @@ Installasjon ved bruk av tar.gz filen
 Installasjon via .rpm filen (krever RPM-basert Linux system) kan gjøres ved bruk av kommandoen
 
    ```rpm –ivh jdk-8u144-linux-x64.rpm```
-
-
 
 ### Windows Installasjonsproblemer
 
