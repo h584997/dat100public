@@ -4,7 +4,8 @@ Java Development Kit (JDK) inneholder alle verktøy som trengs for å oversette 
 
 ### Nedlasting
 
-Java Development Kit lastes ned via:  https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+Java Development Kit lastes ned via:  
+https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
 
 Husk å velge **Accept License Agreement** før download.
 
