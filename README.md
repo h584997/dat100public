@@ -2,7 +2,7 @@
 
 ## DAT100: Grunnleggende Programmering
 
-I faget skal vi bruke programmeringsspråket Java samt det integrerte utviklingsverktøy Eclipse. Videre skal vi bruke revisjonskontrollsystemet git til distribusjon av kode.
+I faget skal vi bruke programmeringsspråket [Java](https://www.java.com/en/) samt det integrerte utviklingsverktøy [Eclipse](https://www.eclipse.org). Videre skal vi bruke revisjonskontrollsystemet [Git](https://git-scm.com) til distribusjon av kode.
 
 Undervisning i DAT100 baserer seg på bruk av egen PC med Java programvareutviklingsmiljø installert. **Det er derfor viktig at alle får dette til.** Ta kontakt med lab-assistant eller faglærer dersom du har problemer med installasjon. På Canvas-sidene for faget finnes i tillegg et forum for spørsmål og svar relatert til installasjon av programvaren.
 
