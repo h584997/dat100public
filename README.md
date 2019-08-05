@@ -20,7 +20,7 @@ Programvaren som skal installeres er Java Development Kit (JDK), Eclipse Integra
 
 Det er viktig at JDK **installeres før** Eclipse installeres. **Husk** å velge rett operativsystem (Windows, MacOS, Linux) når filene lastes ned fra nett.
 
-- [Nedlasting og installasjon](java.md) av Java Development Kit (JDK)
-- [Nedlasting og installasjon](eclipse.md) av Eclipse IDE
-- [Nedlasting og installasjon](git.md) av Git
-- [Nedlasting og installasjon](easygraphics.md) av EasyGraphics
+- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/java.md) av Java Development Kit (JDK)
+- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/eclipse.md) av Eclipse IDE
+- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md) av Git
+- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/easygraphics.md) av EasyGraphics
