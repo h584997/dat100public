@@ -16,11 +16,10 @@ Boken og nettsidene for boken gjør ikke bruk av Eclipse eller andre integrete u
 
 ### Java programmering og utviklingsmiljø
 
-Programvaren som skal installeres er Java Development Kit (JDK), Eclipse Integrated Development Environment (Eclipse IDE), Git samt EasyGraphics. De ulike steg for installasjon av programvareutviklingsmiljø er beskrevet nedenfor.
+Programvaren som skal installeres er Java Development Kit (JDK), Eclipse Integrated Development Environment (Eclipse IDE) og Git. De ulike steg for installasjon av programvareutviklingsmiljø er beskrevet nedenfor.
 
 - [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/java.md) av Java Development Kit (JDK)
 - [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/eclipse.md) av Eclipse IDE
 - [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md) av Git
-- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/easygraphics.md) av EasyGraphics
 
 Det er viktig at JDK **installeres før** Eclipse installeres. **Husk** å velge rett operativsystem (Windows, MacOS, Linux) når filene lastes ned fra nett.
