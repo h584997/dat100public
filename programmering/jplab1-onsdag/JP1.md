@@ -4,24 +4,20 @@
 
 Formålet med denne programmeringslab er å sikre at du har en fungerende installasjon av JDK og Eclipse på egen PC.
 
-Du må **gjøre tre ting** for å få denne første programmeringsoppgaven godkjent.
+- [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab.
 
-- [x] Demonstrere den kjørende applikasjonen i oppgave 2 til labassistent eller underviser. Dette gjøres på programmeringslaben
+Når dette er gjort skiver du inn navnet på den lab-assistenten som du har vist de kjørende programmer til i Canvas.
 
-- [x] Demonstrere den kjørende applikasjonen i oppgave 4 til labassistent eller underviser. Dette gjøres på programmeringslaben
-
-- [x] Demonstrere den kjørende applikasjonen i oppgave 5 til labassistent eller underviser. Dette gjøres på programmeringslaben
-
-**Deadline** for innlevering/godkjenning av øvingen er **23. august kl. 16.00**.
+**Deadline** for innlevering/godkjenning er **23. august kl. 16.00**.
 Ta kontakt med faglærer eller lab-assistent dersom du har problemer med oppgavene.
 
-### Oppgave 1: Installasjon av JDK, Eclipse IDE og Git
+### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
 Les installasjonsveiledningen
 
 https://github.com/dat100hib/dat100public/blob/master/README.md
 
-og installer  JDK, Eclipse og Git slik det er beskrevet i veiledningen.
+og installer JDK, Eclipse og Git ved å gå igjennom de steg som er beskrevet i veiledningen.
 
 ### Oppgave 2: Første JAVA Eclipse-prosjekt
 
@@ -74,7 +70,7 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 1.	Velg *File | Import… | Git | Projects from Git | Clone URI*
 2.	I dialogboksen limer du inn følgende https://github.com/dat100hib/dat100public.git i feltet URI. Dette angir lokasjon av oppbevaringsplassen for eksempelkode på github.
 
-    ![Problem med bilde](assets/markdown-img-paste-20180802132017475.png)
+    ![Problem med bilde](assets/gitimport.png)
 
 3.	Under *Authentication* legger du inn brukernavn og passord for github-kontoen din og trykker Next.
 4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
