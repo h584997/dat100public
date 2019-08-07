@@ -6,7 +6,7 @@ Formålet med denne programmeringslab er å sikre at du har en fungerende instal
 
 - [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab.
 
-Når dette er gjort skiver du inn navnet på den lab-assistenten som du har vist de kjørende programmer til i Canvas.
+Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den lab-assistenten som du har vist de kjørende programmer til som innlevering.
 
 **Deadline** for innlevering/godkjenning er **23. august kl. 16.00**.
 Ta kontakt med faglærer eller lab-assistent dersom du har problemer med oppgavene.
