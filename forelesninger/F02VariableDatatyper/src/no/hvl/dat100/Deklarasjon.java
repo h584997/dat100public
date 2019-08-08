@@ -38,11 +38,13 @@ public class Deklarasjon {
 		int x = 5;
 		int y = 8;
 		
+		// TODO: skrive kode for å bytte om på verdiene for x og y;
 		int h;
 		
 		h = x;
 		x = y;
 		y = h;
+		
 	}
 
 }

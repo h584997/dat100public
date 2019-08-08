@@ -10,7 +10,6 @@ public class Datatyper {
 	double v = 3.14;
 	float f;
 	
-	
 	char c = 'a';
 	
 	boolean b = true;
