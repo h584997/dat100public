@@ -4,13 +4,19 @@
 
 Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. Egen PC brukes til utvikling av Java programmene.
 
-Om du ikke skal ble helt ferdig med installasjon og oppgaver fra onsdag kan du også bruke programmeringslab'en til å kommer videre med dette.
+Om du ikke kom helt i mål med installasjon og oppgaver fra onsdag:
+
+https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
+
+kan du også bruke programmeringslab'en til å komme videre med dette.
 
 Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse og man kan eksempelvis opprette et nytt Eclipse prosjekt med navn DAT100 Lab1 for denne programmeringslab og legge de java-filer som utvikles som en del av dette prosjektet.
 
 ### Gjennomføring
 
-I alle oppgavene er det meningen at dere skal jobbe på egenhånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de 2-3 timene som er satt av på programmerings-lab. Undervisere og lab-assistenter er til stede på labbene slik dere kan få hjelp til det dere står fast på.
+I alle oppgavene er det meningen at dere skal jobbe på egenhånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de 2-3 timene som er satt av til programmerings-lab torsdag.
+
+Undervisere og lab-assistenter er til stede på labbene slik dere kan få hjelp til det dere står fast på.
 
 ### Oppgave 1
 
@@ -34,13 +40,13 @@ Legg merke til at i denne oppgaven tillater vi å bruke flertall selv om vi om v
 
 **Hint:** Bruk heltallsdivisjon og restdivisjon (%) i Java. Eksempel: 13 % 10 gir 3 som svar.
 
-Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene utføres. Algoritmen kan du foreløpig skrive inn først på filen i kommentarblokk `/* <prosessbeskrivelse>*/` over koden.
+Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene utføres. Algoritmen kan du foreløpig skrive inn først på filen i kommentarblokk `/* <algotitmebeskrivelse> */` over koden.
 
 Svaret skal skrives på formatet: 1 timer, 1 minutter, 30 sekunder (alt skrives på samme linje).
 
 For innlesing og utskrift brukes dialogvindu.
 
-### Oppgave 5
+### Oppgave 5 (Gruppearbeid)
 
 Nedanfor finn du eit lite Java-program. Programmet inneheld nokre feil. Først går kvar enkelt student gjennom programmet på eigahand (utan å bruke Eclipse) og prøver å finne feila og kva som blir skrive ut i dei skrivesetningane som kan utførast.
 
@@ -59,9 +65,9 @@ public class Eksperiment
     System.out.println(b);
     System.out.println(s + a + 3);
     System.out.println(3 + a + s);
-    System.out.println(s "
+    System.out.println(s - "H");
     System.out.println(7 / a);
-    System.out.println(13 2 * 5);
+    System.out.println(13 - 2 * 5);
 
     int c = 1578;
     System.out.println(c.length());
@@ -99,30 +105,7 @@ Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske 
 
 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
 
-blev det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et eksisterende Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet. Dette gjøres slik:
-
-1. Finn ut hvor filen easygraphics.jar som inneholder implementasjonen av EasyGraphics biblioteket er lagret på PC’en din. Den legger i dat100public/easygraphics/lib mappen
-
-2. Når du oppretter et nytt prosjekt, trykk «Next» i første dialogboks etter du har skrevet inn navn og velg *Libraries*. Da vil du få følgende dialog:
-
-    ![Problem med bilde](assets/libraries.png)
-
-3. Velg *Classpath* etterfulgt av *Add External JARs…*
-
-4. Nagiver til filen `easygraphics.jar` og velg «Åpne»
-
-For å bruke EasyGraphics i en klasse i prosjektet ditt, må du skrive:
-
-```java
-import easygraphics
-```
-starten av filen for klassen.
-
-I stedet for `.*`, kan du også skrive klassen/klassene du har behov for. Dersom du da trenger flere klasser, må du ha flere import-setninger, for eksempel: import easygraphics.EasyGraphics. Det er også mulig å taste `CTRL + Shift + o` i Eclipse. Da vil Eclipse automatisk tilføye nødvendige import-setninger.
-
-Dersom du skulle glemme å legge til EasyGraphics biblioteket til prosjektet når du oppretter det, kan det også lett gjøres i etterkant. Da høyreklikker du på prosjektet (i Package Explorer) og velger *Properties* (nederst). Du velger *Java Build Path*.
-
-Da får du opp en dialog som ligner dialogen ovenfor. Deretter gjør du punktene 3. – 5. ovenfor.
+blev det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet. 
 
 #### Oppgave 6b)
 
