@@ -35,4 +35,4 @@ I stedet for `.*`, kan du også skrive klassen/klassene du har behov for. Dersom
 
 Dersom du skulle glemme å legge til EasyGraphics biblioteket til prosjektet når du oppretter det, kan det også lett gjøres i etterkant. Da høyreklikker du på prosjektet (i Package Explorer) og velger *Properties* (nederst). Du velger *Java Build Path*.
 
-Da får du opp en dialog som ligner dialogen ovenfor. Deretter gjør du punktene 4. og 5. ovenfor.
+Da får du opp en dialog som ligner dialogen ovenfor. Deretter gjør du punktene 3. og 4. ovenfor.
