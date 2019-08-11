@@ -1,15 +1,16 @@
-# DAT100: Java Programmering 1 - Onsdag 14. august
+# DAT100: Java Programmering 1 - onsdag 14. august
 
 ## Java programmering og utviklingsmiljø
 
-Formålet med denne programmeringslab er å sikre at du har en fungerende installasjon av JDK og Eclipse på egen PC.
+Formålet med denne programmeringslab/øving er å sikre at du har en fungerende installasjon av JDK og Eclipse på egen PC.
 
-- [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab.
+- [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab'en.
 
-Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den lab-assistenten som du har vist de kjørende programmer til som innlevering.
+Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den lab-assistenten som du har vist de kjørende programmer til som innlevering på oppgaven *Demonstrere kjørende Java programmer*.
 
-**Deadline** for innlevering/godkjenning er **23. august kl. 16.00**.
-Ta kontakt med faglærer eller lab-assistent dersom du har problemer med oppgavene.
+**Deadline/Frist** for innlevering/godkjenning er **23. august kl. 16.00**.
+
+Ta kontakt med underviser eller lab-assistent dersom du har problemer med oppgavene.
 
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
@@ -34,7 +35,7 @@ I denne oppgaven skal du opprette et programmeringsprosjekt i Eclipse, skrive og
 System.out.println("Nå virker det!");
 ```
 
-slik at hele filen ser slik ut:
+så at hele filen ser slik ut:
 
 ```java
 package no.hvl.dat100;
@@ -54,7 +55,7 @@ public class Velkommen {
 
 Vi skal bruke www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
 
-#### 3a - opprette en github konto
+#### 3a - Opprette en github konto
 
 For å få tilgang til oppbevaringsplassene som skal brukes i faget må du opprette en brukerkonto på https://www.github.com og angi et brukernavn, epost og passord:
 
@@ -63,7 +64,7 @@ For å få tilgang til oppbevaringsplassene som skal brukes i faget må du oppre
 
 Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
 
-#### 3b - opprette lokal kopi av oppbevaringsplassen
+#### 3b - Opprette lokal kopi av oppbevaringsplassen
 
 Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclipse:
 
@@ -72,15 +73,15 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 
     ![Problem med bilde](assets/gitimport.png)
 
-3.	Under *Authentication* legger du inn brukernavn og passord for github-kontoen din og trykker Next.
+3.	Under *Authentication* legger du inn brukernavn og passord for github-kontoen din og trykker *Next*.
 4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
 5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen.
 6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
-7.	I dialogboksen *Import Projects* velg *F01Introduksjon* og trykk *Finish*. Da vil Eclipse-prosjektene med eksempelkode fra første forelesning være tilgjengelig.
+7.	I dialogboksen *Import Projects* velg *F01Introduksjon* og *F01Kaukulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempelkode fra første forelesning være tilgjengelig.
 
-#### 3c - tilgang til nye og oppdaterte prosjekt
+#### 3c - Tilgang til nye og oppdaterte prosjekt
 
-Etter hvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for å få tilgang til eksempler for de neste forelesninger. For å få tilgang til de må du oppdatere den lokale oppbevaringsplassen på PC’en din:
+Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for å få tilgang til eksempler for de neste forelesninger. For å få tilgang til de må du oppdatere den lokale oppbevaringsplassen på PC’en din:
 
 1.	Velg et av eksempelprosjektene i Eclipse, høyre-klikk og velg *Team | Pull*.   Dette oppdaterer oppbevaringsplassen for eksempler på din PC.
 2.	Velg *File | Import… | Git | Projects from Git | Existing local repository* og trykk *Next*.
@@ -90,7 +91,7 @@ Etter hvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for 
 
 ### Oppgave 4: Enhetstesting og JUnit
 
-For noen programmeringsoppgaver skal vi bruke JUnit til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit
+For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit
 
 Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
 
@@ -106,7 +107,7 @@ Kjør enhets-testene igjen og prøv applikasjonen via grensesnittet. Sjekk at al
 
 ### Oppgave 5: Bruk av EasyGraphics
 
-I forbindelse med forelesninger og programmeringsoppgaver skal vi bruke biblioteket easygraphics til å illustrere en del begreper innen programmering. Formålet med denne oppgaven er å vise hvordan man bruker easygraphics biblioteket i egne programmer.
+I forbindelse med forelesninger og programmeringsoppgaver skal vi bruke biblioteket [EasyGraphics](https://github.com/dat100hib/dat100public/blob/master/installasjon/easygraphics.md) til å illustrere en del begreper innen programmering. Formålet med denne oppgaven er å vise hvordan man bruker easygraphics biblioteket i egne programmer.
 
 For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet ha en referanse til en jar-fil som inneholder java-koden for biblioteket. Jar-filen `easygraphics.jar` finnes i mappen `easygraphics/lib` der du sjekket ut koden fra github i oppgave 3.
 
@@ -133,11 +134,14 @@ public class Grafikk extends EasyGraphics {
 
 Koden ovenfor gir i første omgang en rekke feilmeldinger siden vi ikke har fortalt hvor easygraphics biblioteket finnes.
 
-3.	Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Properties | Java Build Path | Libraries | Classpath | Add External JARs* og naviger til den mappen der `easygraphics.jar` filen legger. Velg easygraphics.jar filen.
-4.	Jar-filen er nå lagt til prosjektet under *Referenced Libraries* og feilmeldinger skulle nå forsvinne.
-5.	Kjør programmet og se at det gir forventet resultat.
-6.	Modifiser programmet så det tegner to forskjellige sirkler på to ulike steder på skjermen.
-7.	Skriv et program som tegner et åttetall.
+3. Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Import ... | General | File System | Browse ...* og naviger til mappen `easygraphics/lib` der `easygraphics.jar` filen legger. Velg `lib`og `easygraphics.jar` filen.
+
+4.	Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Properties | Java Build Path | Libraries | Classpath | Add JARs...*
+
+5. Velg *EasyGraphicsTest*  og `easygraphics.jar` filen. Trykk *OK* og *Apply and Close*. Jar-filen er da lagt til prosjektet under *Referenced Libraries* og feilmeldinger skulle nå forsvinne.
+6.	Kjør programmet og se at det gir forventet resultat.
+7.	Modifiser programmet så det tegner to forskjellige sirkler på to ulike steder på skjermen.
+8.	Skriv et program som tegner et åttetall.
 
 ### Oppgave 6: Jshell - Interaktivt Java verktøy
 
