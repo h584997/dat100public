@@ -12,7 +12,7 @@ Husk å velge **Accept License Agreement** før download.
 ## Installasjon Windows
 1.	Dobbeltklikk på filen `jdk-12.0.2_windows-x64_bin.exe`  
 2.	Følg instruksjonene. Foreslåtte valg vil vanligvis fungere fint.
-3.  Test installasjon ved å starte en ledetekst (Command Prompt) og naviger til mappen `C:\Program Files\Java\jdk12.0.2\bin` og utfør kommandoen `javac –version` som bør gi følgende (eller tilsvarende output): `javac "12.0.2"`
+3.  Test installasjon ved å starte en ledetekst (Command Prompt) og naviger til mappen `C:\Program Files\Java\jdk-12.0.2\bin` og utfør kommandoen `javac –version` som bør gi følgende (eller tilsvarende output): `javac "12.0.2"`
 
 4. Prøv også å utføre kommandoen `jshell` som starter et program som muliggjør interaktiv kjøring av Java-kode. Når programmet starter gir det følgende (eller tilsvarende output):
 
@@ -28,11 +28,11 @@ Du kan avslutte ved å trykke `Ctrl + D`
 
 For å få enkel tilgang til Java kompilatoren og jshell er det nødvendig å sette miljøvariablen `PATH` så den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
 
-Stien til mappen er avhengige av hvor du valgte å installere JDK. Som standard vil den være: `C:\Program Files\Java\jdk12.0.2\bin`.
+Stien til mappen er avhengige av hvor du valgte å installere JDK. Som standard vil den være: `C:\Program Files\Java\jdk-12.0.2\bin`.
 
 **VIKTIG:** stien til JDK skal *tilføyes* til den eksisterende verdi av `PATH` dvs. ikke slett det eksisterende innholdet men tilføy følgende på enden (husk `;`` først):
 
-```;C:\Program Files\Java\jdk12.0.2\bin```
+```;C:\Program Files\Java\jdk-12.0.2\bin```
 
 Stien vil også avhenge av hvilken versjon av JDK du evt. har lastet ned. Hvis du har downloaded en nyere versjon av JDK må stien endres tilsvarende.
 Test installasjonen via en Command Prompt (ledetekst) og kommandoen:
@@ -41,7 +41,7 @@ Test installasjonen via en Command Prompt (ledetekst) og kommandoen:
 
 Dette bør gi følgende (eller tilsvarende) output:
 
-```javac "12.0.2```
+```javac 12.0.2```
 
 Om man endrer i PATH da må man starte en ny kommando prompt for å få effekt av endringen. Den aktuelle verdi av Path kan man se ved å skrive Path i kommando prompten.
 
@@ -49,7 +49,7 @@ Om man endrer i PATH da må man starte en ny kommando prompt for å få effekt a
 
 På noen Windows-plattformer kan det forekomme at en versjon av java’s virtuelle maskin (JVM) er installert som forhindrer Eclipse i å starte. Da må man endre i oppstarts-filen `eclipse.ini` som finnes i eclipse-mappen ved å tilføye:
 
-```-vm C:/Program Files/Java/jdk10.0.2/bin/javaw.exe```
+```-vm C:/Program Files/Java/jdk-12.0.2/bin/javaw.exe```
 
 før linjen som begynner med `–vmargs`. Husk å rette i linjen ovenfor om man har valgt å installere JDK i en annen folder eller har installert en annen versjon av JDK.
 
