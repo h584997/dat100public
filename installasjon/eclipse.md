@@ -14,7 +14,7 @@ https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-java-de
 **Husk:** det er viktig at JDK er installert først
 
 1.	Pakk ut den filen som inneholder Eclipse (zip,dmg,tar.gz)
-   - **Windows** Flyt .zip filen til den mappen der du ønsker å installere Eclipse. Høyre-klikk på .zip filen og velg *Pakk ut alle …*
+   - **Windows** Om du lastet ned en .exe-fil da kan du dobbelklikke på denne for installasjon. Om du lastet ned en .zip-fil må du flytte zip-filen til den mappen der du ønsker å installere Eclipse. Høyre-klikk på .zip filen og velg *Pakk ut alle …*
    - **MacOS** Dobbel-klikk på .dmg filen og flyt Eclipse til den mappen der du ønsker å installere Eclipse.
    - **Linux** Flyt .tar.gz filen til den mappen der du ønsker å installere Eclipse. Pakk ut tar.gz filen ved bruk av `tar`-kommandoen.
 2.	Nå kan man starte Eclipse ved å åpne mappen du valgte for å pakke ut filene. Der finner du en programfil som heter `eclipse`. Start denne ved å dobbelklikke.
