@@ -2,6 +2,7 @@ package no.hvl.dat100;
 import easygraphics.*;
 /* 
  * Programmet tegner det franske flagget.
+ * 
  */
  
 public class FranskFlagg extends EasyGraphics {
