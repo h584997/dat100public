@@ -12,7 +12,7 @@ public class ProgramNavn {
 		
 		kommentarsetninger
 		
-		operasjoner som skal utføres i sekvens
+		operasjoner som skal utfoeres i sekvens
 		
 		*/
 	}
