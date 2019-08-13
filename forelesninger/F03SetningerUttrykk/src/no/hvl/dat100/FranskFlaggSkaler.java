@@ -4,6 +4,7 @@ package no.hvl.dat100;
  * kan skalere flagget ved å skrive inn en prosentsats.
  * 100 (prosent) gir "vanlig" størrelse, 50 halv størrelse,
  * 200 dobbel størrelse.
+ * 
  */
 import easygraphics.*;
 import static java.lang.Integer.*;
