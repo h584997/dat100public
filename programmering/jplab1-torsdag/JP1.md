@@ -24,11 +24,11 @@ Lag et program som leser inn to heltall fra brukeren og skriver ut summen av de.
 
 ### Oppgave 2
 
-Oppgave 6 i Java-boken
+Oppgave 6 Kap. 2 i Java-boken
 
 ### Oppgave 3
 
-Oppgave 9 i Java-boken
+Oppgave 9 Kap 2. i Java-boken
 
 ### Oppgave 4
 
@@ -48,7 +48,7 @@ For innlesing og utskrift brukes dialogvindu.
 
 ### Oppgave 5 (Gruppearbeid)
 
-Nedanfor finn du eit lite Java-program. Programmet inneheld nokre feil. Først går kvar enkelt student gjennom programmet på eigahand (utan å bruke Eclipse) og prøver å finne feila og kva som blir skrive ut i dei skrivesetningane som kan utførast.
+Nedanfor finn du eit lite Java-program. Programmet inneheld nokre feil. Først går kvar enkelt student gjennom programmet på eigahand (utan å bruke Eclipse) og prøver å finne feila og kva som blir skrive ut i dei skrivesetningane som kan utførast. Metoden `length()` gir lengden på en streng.
 
 Deretter set 2 - 3 studentar seg saman og diskuterer svara. Bli einige om svara før de skriv inn programmet og sjekkar at de har rett. Dersom de har feil, prøv å forstå kvifor de tok feil. Viss ikkje de forstår kvifor, spør.
 
@@ -105,7 +105,7 @@ Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske 
 
 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
 
-blev det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet. 
+ble det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet.
 
 #### Oppgave 6b)
 
@@ -119,4 +119,4 @@ Utvid programmet fra b) slik det først leser inn en prosentverdi og deretter te
 
 ### Oppgave 7
 
-Oppgave 18 side 78 i Java-boken. Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
+Oppgave 18 Kap. 2 i Java-boken. Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
