@@ -6,6 +6,7 @@ import static java.lang.Double.*;
 public class MomsKalkulator {
 
 	public static void main(String[] args) {
+		
 		/* Denne koden kan forbedres når vi har lært mer
 		 * 
 		 */
