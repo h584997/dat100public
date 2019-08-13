@@ -18,7 +18,7 @@ public class FinnOrdIFil {
         String mappe = System.getProperty("user.dir");
 
 		String filnavn = showInputDialog("Filnavn:");
-		String søkeord = showInputDialog("Søkeord:");
+		String sokeord = showInputDialog("Sokeord:");
 		
 		try {
 			
@@ -29,7 +29,7 @@ public class FinnOrdIFil {
 			
 			while (linje != null) {
 				
-				if (linje.contains(søkeord))
+				if (linje.contains(sokeord))
 					out.println(linjenr + ":" + linje);
 				
 				linje = fil.readLine();
