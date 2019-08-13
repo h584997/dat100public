@@ -93,9 +93,9 @@ Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for �
 
 For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit
 
-Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
+Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `F01Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
 
-1.	Kjør applikasjonen ved å velge prosjektet Kalkulator etterfulgt av *Run | Run*
+1.	Kjør applikasjonen ved å velge `Grensesnitt.java` etterfulgt av *Run | Run*
 2.	Kjør JUnit enhetstestene i prosjektet ved å velge filen `TestKalkulator.java` etterfulgt av  *Run | Run As | JUnit Test*
 
 Enhetstestene i punkt 2 ovenfor feiler fordi ikke alt er implementert i filen `Kalkulator.java`:
@@ -109,10 +109,11 @@ Kjør enhets-testene igjen og prøv applikasjonen via grensesnittet. Sjekk at al
 
 I forbindelse med forelesninger og programmeringsoppgaver skal vi bruke biblioteket [EasyGraphics](https://github.com/dat100hib/dat100public/blob/master/installasjon/easygraphics.md) til å illustrere en del begreper innen programmering. Formålet med denne oppgaven er å vise hvordan man bruker easygraphics biblioteket i egne programmer.
 
-For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet ha en referanse til en jar-fil som inneholder java-koden for biblioteket. Jar-filen `easygraphics.jar` finnes i mappen `easygraphics/lib` der du sjekket ut koden fra github i oppgave 3.
+For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet ha en referanse til en jar-fil som inneholder java-koden for biblioteket. Jar-filen `easygraphics.jar` finnes i mappen `easygraphics/lib` på PC'en din der du sjekket ut koden fra github i oppgave 3.
 
 1.	Opprett et nytt Eclipse-prosjekt som i oppgave 2 med navnet *EasyGraphicsTest*.
-2.	Legg inn en ny Java-klasse *Grafikk* med følgende innhold:
+2. Lag en pakke `no.hvl.dat100 i prosjektet
+3.	Legg inn en ny Java-klasse *Grafikk* i pakken `no.hvl.dat100` med følgende innhold:
 
 ```java
 package no.hvl.dat100;
@@ -134,14 +135,14 @@ public class Grafikk extends EasyGraphics {
 
 Koden ovenfor gir i første omgang en rekke feilmeldinger siden vi ikke har fortalt hvor easygraphics biblioteket finnes.
 
-3. Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Import ... | General | File System | Browse ...* og naviger til mappen `easygraphics/lib` der `easygraphics.jar` filen legger. Velg `lib`og `easygraphics.jar` filen.
+4. Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Import ... | General | File System | Browse ...* og naviger til mappen `easygraphics/lib` der `easygraphics.jar` filen legger. Velg `lib`og `easygraphics.jar` filen.
 
-4.	Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Properties | Java Build Path | Libraries | Classpath | Add JARs...*
+5.	Høyreklikk på prosjektet *EasyGraphicsTest* og velg *Properties | Java Build Path | Libraries | Classpath | Add JARs...*
 
-5. Velg *EasyGraphicsTest*  og `easygraphics.jar` filen. Trykk *OK* og *Apply and Close*. Jar-filen er da lagt til prosjektet under *Referenced Libraries* og feilmeldinger skulle nå forsvinne.
-6.	Kjør programmet og se at det gir forventet resultat.
-7.	Modifiser programmet så det tegner to forskjellige sirkler på to ulike steder på skjermen.
-8.	Skriv et program som tegner et åttetall.
+6. Velg *EasyGraphicsTest*  og `easygraphics.jar` filen. Trykk *OK* og *Apply and Close*. Jar-filen er da lagt til prosjektet under *Referenced Libraries* og feilmeldinger skulle nå forsvinne.
+7.	Kjør programmet og se at det gir forventet resultat.
+8.	Modifiser programmet så det tegner to forskjellige sirkler på to ulike steder på skjermen.
+9.	Skriv et program som tegner et åttetall (to sirkler).
 
 ### Oppgave 6: Jshell - Interaktivt Java verktøy
 
