@@ -62,7 +62,7 @@ For å få tilgang til oppbevaringsplassene som skal brukes i faget må du oppre
 1. Bruk studentnummeret dit som brukernavn (username) (**VIKTIGT**). Eksempelvis h428400 om du har studentnummer 428400.
 2. I Step 2 (Choose your plan) velg Unlimited public repositories for free.
 
-Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
+**Viktig** Du skal ikke opprette noen repositories nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
 
 #### 3b - Opprette lokal kopi av oppbevaringsplassen
 
